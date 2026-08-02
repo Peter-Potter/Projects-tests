@@ -5,14 +5,14 @@ import Badge from "../ui/badge";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="w-full max-w-7xl mx-auto px-6 md:px-16 py-16 md:py-24">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <section id="about" className="w-full mx-auto px-6 md:px-16 py-16 md:py-24">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         
         {/* Left Column: Heading & Text */}
-        <div className="lg:col-span-5 flex flex-col items-start gap-6">
+        <div className="lg:col-span-5 flex flex-col items-start gap-6 justify-between">
           <Badge variant="light">About Padel Club</Badge>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-zinc-900 tracking-tight leading-tight">
-            At our padel center, we bring sport and community together. From beginners to professionals – everyone can find their place here.
+          <h2 className="text-2xl md:text-4xl font-medium text-zinc-900 tracking-tight leading-tight">
+            At our padel center, we bring <br/> sport and community together. From beginners <br/> to professionals – everyone can find their place here.
           </h2>
           <button className="flex items-center gap-2 bg-black hover:bg-zinc-800 text-white px-6 py-3 rounded-full text-sm font-medium transition-all shadow-md hover:scale-105 active:scale-95 cursor-pointer mt-2">
             <span>Get in touch</span>
@@ -24,7 +24,7 @@ const AboutSection = () => {
         <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-12 gap-6">
           
           {/* Card 1: Outdoor Area */}
-          <div className="sm:col-span-7 relative group rounded-3xl overflow-hidden shadow-lg h-[340px] sm:h-[380px]">
+          <div className="sm:col-span-7 relative group rounded-3xl overflow-hidden shadow-lg">
             <img
               src="/about_outdoor.jpg"
               alt="Outdoor area court"
