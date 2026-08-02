@@ -36,7 +36,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section id="membership" className="w-full max-w-7xl mx-auto px-6 md:px-16 py-16 md:py-24">
+    <section id="membership" className="w-full mx-auto px-6 md:px-16 py-16 md:py-24">
       
       {/* Header Row */}
       <div className="flex items-center justify-between gap-6 mb-12">

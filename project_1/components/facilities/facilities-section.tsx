@@ -41,7 +41,7 @@ const FacilitiesSection = () => {
 
   return (
     <section id="courts" className="w-full bg-zinc-50/60 border-y border-zinc-100 py-16 md:py-24">
-      <div className="max-w-7xl mx-auto px-6 md:px-16">
+      <div className="mx-auto px-6 md:px-16">
         
         {/* Header Row */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">

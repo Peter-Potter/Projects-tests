@@ -2,7 +2,8 @@ import { ArrowUpRight } from "lucide-react";
 
 const CTASection = () => {
   return (
-    <section className="relative w-full overflow-hidden bg-zinc-950 text-white min-h-[500px] flex items-center justify-between px-6 md:px-16 py-20">
+    <section className="relative w-full overflow-hidden bg-zinc-950 text-white flex items-center 
+    justify-between px-6 md:px-16 py-20">
       {/* Background Court Action Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -14,8 +15,8 @@ const CTASection = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 max-w-2xl space-y-6">
-        <h2 className="text-4xl sm:text-6xl md:text-7xl font-light tracking-tight leading-tight">
+      <div className="relative flex flex-col items-start gap-8 z-10 max-w-2xl py-20">
+        <h2 className="text-4xl sm:text-6xl md:text-7xl font-light tracking-tight">
           Ready to play <br />
           <span className="font-normal">with us ?</span>
         </h2>

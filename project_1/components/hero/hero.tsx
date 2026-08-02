@@ -5,7 +5,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative flex flex-col justify-between items-start bg-[url('/hero.png')] bg-cover bg-center bg-no-repeat w-full min-h-[92vh] px-6 md:px-16 py-8 overflow-hidden rounded-b-3xl">
+    <section className="relative flex flex-col justify-between items-start bg-[url('/hero.png')] bg-cover 
+    bg-center bg-no-repeat w-full min-h-[92vh] px-6 md:px-16 py-8 overflow-hidden">
       {/* Dark overlay for contrast */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60 pointer-events-none" />
 
