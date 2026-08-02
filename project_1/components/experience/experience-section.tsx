@@ -7,19 +7,20 @@ const ExperienceSection = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 md:px-16 py-12 md:py-16">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+    <section className="w-full mx-auto px-6 md:px-16 py-12 md:py-16">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-24  items-stretch">
         
         {/* Left Dark Interactive Feature Card */}
-        <div className="lg:col-span-6 bg-zinc-950 text-white rounded-3xl p-6 md:p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden min-h-[420px]">
+        <div className="lg:col-span-6 text-white rounded-3xl p-6 md:p-8 flex flex-col justify-between 
+        shadow-2xl relative overflow-hidden min-h-[420px]">
           {/* Background image preview with dark gradient */}
           <div className="absolute inset-0 z-0">
             <img
               src="/hero.png"
               alt="Padel Court Background"
-              className="w-full h-full object-cover opacity-40"
+              className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/70 to-transparent" />
+            
           </div>
 
           {/* Top content */}
@@ -57,14 +58,14 @@ const ExperienceSection = () => {
         </div>
 
         {/* Right Feature Highlight */}
-        <div className="lg:col-span-6 flex flex-col justify-between gap-8 py-2">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-zinc-900 tracking-tight leading-tight">
-            Experience the Best in Padel and More
+        <div className="lg:col-span-6 flex flex-col justify-between py-2">
+          <h2 className="text-3xl sm:text-4xl md:text-[3.5rem] font-medium text-zinc-900 tracking-tight leading-tight">
+            Experience the Best <br/> in Padel and More
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
             {/* Image card with floating + icon */}
-            <div className="sm:col-span-6 relative rounded-3xl overflow-hidden shadow-md group h-[220px]">
+            <div className="sm:col-span-4 relative rounded-3xl overflow-hidden shadow-md group h-[15rem]">
               <img
                 src="/rackets_balls.jpg"
                 alt="Padel Rackets and Balls"
@@ -76,8 +77,8 @@ const ExperienceSection = () => {
             </div>
 
             {/* Description Text */}
-            <div className="sm:col-span-6">
-              <p className="text-xs sm:text-sm text-zinc-600 font-light leading-relaxed">
+            <div className="sm:col-span-8">
+              <p className="text-xs sm:text-sm text-zinc-600 font-light leading-relaxed pr-20">
                 Our facilities feature state-of-the-art padel courts, training zones, and spaces for tournaments or casual games. A place where sport and leisure come together perfectly.
               </p>
             </div>
